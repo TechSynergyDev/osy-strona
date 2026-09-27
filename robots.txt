@@ -3,5 +3,4 @@
 User-agent: *
 Allow: /
 
-# PODMIEŃ „TWOJA-DOMENA.pl” na prawdziwy adres strony
-Sitemap: https://www.TWOJA-DOMENA.pl/sitemap.xml
+Sitemap: https://usuwaniegniazdaos.pl/sitemap.xml
