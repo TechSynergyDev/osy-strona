@@ -519,3 +519,20 @@ mark.todo { padding: 1px 5px; border-radius: 5px; background: rgba(255,90,60,0.2
   .wasp, .wasp-peek, .wasp__wing, .wasp__body, .wasp__antenna { animation: none !important; }
 }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+/* =========================================================
+   HERO NA TELEFONIE — zdjęcie widoczne u góry, mniej tekstu
+   ========================================================= */
+@media (max-width: 639px) {
+  .hero { padding-bottom: 34px; }
+  .hero__img { object-position: 76% 30%; }
+  .hero__scrim {
+    background: linear-gradient(180deg, rgba(15,13,9,0.35) 0%, rgba(15,13,9,0) 22%, rgba(15,13,9,0.15) 42%, rgba(15,13,9,0.88) 66%, var(--bg) 100%);
+  }
+  .hero__title { font-size: 2rem; margin-bottom: 20px; }
+  .hero__sub { display: none; }
+  .hero__actions { margin-bottom: 22px; }
+  .hero__actions .btn--ghost { display: none; }
+  .hero__phone-ic { width: 46px; height: 46px; }
+  .hero__phone-num { font-size: 1.6rem; }
+}
