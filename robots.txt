@@ -1,0 +1,7 @@
+# Wpuszczamy wszystkie wyszukiwarki i asystentów AI
+# (m.in. Googlebot, Google-Extended/Gemini, Bingbot, OAI-SearchBot/ChatGPT, PerplexityBot, ClaudeBot)
+User-agent: *
+Allow: /
+
+# PODMIEŃ „TWOJA-DOMENA.pl” na prawdziwy adres strony
+Sitemap: https://www.TWOJA-DOMENA.pl/sitemap.xml
